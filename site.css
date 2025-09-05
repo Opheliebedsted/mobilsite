@@ -1,0 +1,106 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  background-color: rgb(94, 4, 60);
+  padding: 10x;
+  text-align: center;
+  justify-content: center;
+}
+body {
+  background-color: rgb(255, 230, 247);
+}
+
+h1 {
+  font-family: yanone kaffeesatz;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+  color: rgb(95, 4, 60);
+}
+h2 {
+  font-family: mandali;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+  color: rgb(65, 17, 40);
+}
+h3 {
+  font-family: palanquin;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+  color: rgb(16, 16, 19);
+}
+p {
+  font-family: palanquin;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+}
+dl {
+  font-family: palanquin;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+}
+
+ul {
+  font-family: palanquin;
+  padding-left: clamp(10px, 5vw, 50px);
+  padding-right: clamp(10px, 5vw, 50px);
+  margin-top: clamp(10px, 5vw, 50px);
+  margin-bottom: clamp(10px, 5vw, 50px);
+}
+nav a {
+  font-family: mandali;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(95, 4, 60);
+  padding: clamp (10 px 20px);
+  border-radius: 20px;
+  font-weight: bold;
+  margin: clamp (50px);
+  font-size: 18px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  nav ul {
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: left;
+  }
+  nav li {
+    text-align: left;
+  }
+}
+
+footer {
+  background-color: rgb(58, 3, 43);
+  padding: 20px;
+  color: white;
+  font-family: mandali;
+}
